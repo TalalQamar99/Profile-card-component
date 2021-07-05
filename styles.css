@@ -33,7 +33,6 @@ body,html{
     box-shadow: 2px 2px 4px 1px hsl(185, 75%, 39%),-2px 0px 4px 1px hsl(185, 75%, 39%);
 }
 .img-card{
-    /* height: 100%; */
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 12px;
@@ -60,7 +59,7 @@ body,html{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     margin-top:95px;
-    color: hsl(0, 3%, 12%);
+    color: hsl(229, 23%, 23%);
     font-size: 20px;
 }
 .p-city{
@@ -78,4 +77,28 @@ hr{
     margin-top: 180px;
     border: 0.1px solid hsl(0, 0%, 59%);
     opacity: 25%;
+}
+.stats{
+    position: absolute;
+    margin:0;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(229, 23%, 23%);
+}
+.td-1{
+    margin:auto;
+    padding: 35px;
+    text-align: left;
+}
+#stats-2{
+    margin-top:40px ;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    margin-left: -6px;
 }
