@@ -52,3 +52,30 @@ body,html{
     border-color: white;
     border-width: 6px;
 }
+.name{
+    margin:0;
+    font-family:"Kumbh Sans";
+    position:absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top:95px;
+    color: hsl(0, 3%, 12%);
+    font-size: 20px;
+}
+.p-city{
+    margin:0;
+    font-family:"Kumbh Sans";
+    position:absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top:135px;
+    color: hsl(0, 0%, 59%);
+    font-size: 20px;
+}
+hr{
+    margin-top: 180px;
+    border: 0.1px solid hsl(0, 0%, 59%);
+    opacity: 25%;
+}
