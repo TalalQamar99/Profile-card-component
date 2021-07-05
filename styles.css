@@ -118,5 +118,19 @@ hr{
     border-radius: 12px !important; 
     box-shadow: 2px 2px 4px 1px hsl(185, 75%, 39%),-2px 0px 4px 1px hsl(185, 75%, 39%);
 }
+.main-div{
+    width: 375px;
+    overflow: hidden;
+    position: relative;
+}
+.img-top{
+    margin-top: -40%;
+    margin-left: -30%;
+    width: 85%;
+}
+.img-bottom{
+    margin-left:48%;
+    margin-top:-6%;
+}
     
 }
