@@ -1,0 +1,19 @@
+body,html{
+    height: 100vh;
+    background-color:hsl(185, 75%, 39%);
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.img-top{
+    margin-top: -40%;
+    margin-left: -35%;
+}
+.img-bottom{
+    margin-left:48%;
+    margin-top:-6%;
+}
